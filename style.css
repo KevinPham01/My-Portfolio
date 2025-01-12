@@ -76,7 +76,7 @@ span{
     padding: 30px 12% 0;
 }
 .home-content{
-    max-width:800px;
+    max-width:700px;
 
 }
 .home-content h3{
@@ -126,4 +126,48 @@ span{
 .btn-2:hover{
     background-color:#fff;
     color:orangered;
+}
+.img-box img{
+
+    border-radius: 50%;
+    width: 450px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+    width: 50px;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
+}
+.about-img img{
+    position:relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius:50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
 }
