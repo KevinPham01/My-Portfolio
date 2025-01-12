@@ -171,3 +171,15 @@ span{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.btn-3{
+    padding: 15px 28px;
+    background-color: orangered;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:600;
+    transition: 0.3s ease;
+    cursor:pointer;
+}
