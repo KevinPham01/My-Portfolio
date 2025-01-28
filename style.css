@@ -171,6 +171,89 @@ span{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+
+.experience{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: white;
+}
+.experience-content h2{
+    text-align: left;
+    font-size: 62px;
+    margin-bottom: 1em
+}
+
+.experience-content h3{
+    font-size: 42px;
+    padding: 10px 24px;
+    margin-bottom: 0.5em
+}
+
+.experience-content h3{
+    font-size: 35px;
+    padding: 10px 24px;
+    margin-bottom: 0.5em
+}
+
+.experience-content h4{
+    font-size: 30px;
+    padding: 10px 24px;
+    margin-bottom: 0.5em
+}
+.experience-content ul li{
+    font-size: 20px;
+    text-indent: 4em;
+    margin-bottom: 0.5em
+}
+
+.projects{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: black;
+}
+
+.projects-content h2{
+    text-align: left;
+    font-size: 62px;
+    margin-bottom: 1em;
+    color:white
+}
+
+
+.projects-content h3{
+    font-size: 42px;
+    padding: 10px 24px;
+    margin-bottom: 0.5em;
+    color:white
+}
+
+.projects-content h4{
+    font-size: 30px;
+    padding: 10px 24px;
+    margin-bottom: 0.5em;
+    color:white
+}
+
+.projects-content ul li{
+    font-size: 20px;
+    text-indent: 4em;
+    margin-bottom: 0.5em;
+    color:white;
+    
+}
+.projects-content ul {
+
+    margin-bottom: 5em;
+    color:white;
+    
+}
+
 .contact-form h2{
     text-align: center;
     margin-top:3em;
